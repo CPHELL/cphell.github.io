@@ -1,37 +1,38 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: CPHELL 소개
+tags: [CPHELL]
+date: 2022-04-01
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+<center><u><b>CPHELL</b></u>: Chicken and Pizza Happily Eating Lasagna and Lobster.</center>
 
-## Preview
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+<center>당신의 다음 동아리는 동아리가 아니다.</center>
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+<center>누구나 즐기는 치킨과 피자에서부터 고급진 라자냐와 랍스터까지.</center>
 
-## Getting Started
+어떤 음식이든, 어디에서든 마음 맞는 동아리원들과 함께 맛집 탐방을 떠나고 싶지 않으신가요?
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+또한 이를 바탕으로 객관적인 평가를 내려 다른 사람들에게 도움이 된다면 얼마나 환상적일까요? 
+
+CPHELL은 이러한 활동들을 바탕으로 새로운 식도락계의 지표인 헬슐랭가이드를 만들어 전국의 학우 여러분들을 초대합니다. 
+
+더할 나위 없이 완벽한 입맛의 조화를 위해, 평가자가 평소 선호하는 음식과 맛 취향까지 공개하여 다양한 사람들과의 어우러짐 또한 노력합니다.
+
+
+## 조직 체계
+
+* 운영진: 대표, 부대표, 기술부장, 디자인부장
+* 일반회원: 정회원, 준회원, 휴회원
+
+* 정회원 조건: 평가 작성 횟수 5회 달성 시 운영진의 검토 후 달성
+
+## 후원 계좌
+
+카카오뱅크 3333-10-6879355 김류빈
+
+--- 
+
+**CPHELL** From __2021 Q1__ ~
