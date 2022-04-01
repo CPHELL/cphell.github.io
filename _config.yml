@@ -5,7 +5,7 @@ description:        "고려대학교 정보대학 미식 동아리 CPHELL에서 
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/salmon.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
 url:                https://cphell.github.io
