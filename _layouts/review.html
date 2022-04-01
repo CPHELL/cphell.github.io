@@ -16,8 +16,8 @@ layout: compress
     <div class="wrapper animated fadeIn">
         <div class="content">
             <div class="post-title {% if page.feature %} feature {% endif %}">
-                <h1>{{ page.가게이름 }} - {{ page.방문일자 }}</h1>
-                <h4>{{ page.방문일자 | date_to_string }}</h4>
+                <h1>{{ page.storename }} - {{ page.visitdate }}</h1>
+                <h4>{{ page.visitdate | date_to_string }}</h4>
                 {% if site.reading_time %}
                 <p class="reading-time">
                     <i class="fa fa-clock-o"></i>
@@ -36,18 +36,18 @@ layout: compress
             <table>
                 <tr>
                     <th>평가자</th>
-                    <td>{{ page.평가자 }}</td>
+                    <td>{{ page.reviewer }}</td>
                 </tr>
                 <tr>
                     <th rowspan="2">방문 가게 정보</th>
-                    <td>{{ page.가게이름 }}</td>
+                    <td>{{ page.storename }}</td>
                 </tr>
                 <tr>
-                    <td>{{ page.가게주소 }}</td>
+                    <td>{{ page.storeaddr }}</td>
                 </tr>
                 <tr>
                     <th>방문 일자</th>
-                    <td>{{ page.방문일자 | date_to_string }}</td>
+                    <td>{{ page.visitdate | date_to_string }}</td>
                 </tr>
             </table>
             {{ content }}
