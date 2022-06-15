@@ -18,12 +18,6 @@ layout: compress
             <div class="post-title {% if page.feature %} feature {% endif %}">
                 <h1>{{ page.storename }} - {{ page.visitdate }}</h1>
                 <h4>{{ page.visitdate | date_to_string }}</h4>
-                {% if site.reading_time %}
-                <p class="reading-time">
-                    <i class="fa fa-clock-o"></i>
-                    {% include read-time.html %}
-                </p><!-- /.entry-reading-time -->
-                {% endif %}
                 {% if page.project %}
                 <a class="btn zoombtn" href="{{site.url}}/projects/">
                     {% else %}
@@ -49,7 +43,27 @@ layout: compress
                     <th>방문 일자</th>
                     <td>{{ page.visitdate | date_to_string }}</td>
                 </tr>
+                <tr>
+                    <th>헬슐랭 스타</th>
+                    <td>
+                        {% if page.star == "0" %}
+                        NO STAR - 맛집은 아닌듯
+                        {% elsif page.star == "1" %}
+                        ★ - 연대 친구 밥 사줄 수 있는 식당
+                        {% elsif page.star == "2" %}
+                        ★★ - 자신있게 후배 밥약으로 갈 수 있는 식당
+                        {% elsif page.star == "3" %}
+                        ★★★ - 인스타에 올리면 여기 어디냐고 DM오는 식당
+                        {% elsif page.star == "HELL" %}
+                        헬 구르망 - 합리적인 가격으로 좋은 요리를 맛볼 수 있는 식당
+                        {% else %}
+                        ERROR
+                        {% endif %}
+                    </td>
+                </tr>
             </table>
+            <hr>
+            <h2>세부 평가</h2>
             {{ content }}
             <div class="entry-meta">
                 {% include meta.html %}
