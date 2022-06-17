@@ -1,7 +1,7 @@
 <span>
-{% if {{ include.stars }}=='1' %}⭐{% endif %}
-{% if {{ include.stars }}=='2' %}⭐⭐{% endif %}
-{% if {{ include.stars }}=='3' %}⭐⭐⭐{% endif %}
-{% if {{ include.stars }}=='4' %}⭐⭐⭐⭐{% endif %}
-{% if {{ include.stars }}=='5' %}⭐⭐⭐⭐⭐{% endif %}
+{% if {{ include.id }}=='1' %}⭐{% endif %}
+{% if {{ include.id }}=='2' %}⭐⭐{% endif %}
+{% if {{ include.id }}=='3' %}⭐⭐⭐{% endif %}
+{% if {{ include.id }}=='4' %}⭐⭐⭐⭐{% endif %}
+{% if {{ include.id }}=='5' %}⭐⭐⭐⭐⭐{% endif %}
 </span>
