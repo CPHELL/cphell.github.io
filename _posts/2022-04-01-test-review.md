@@ -5,7 +5,7 @@ storename: "스타벅스 고대점"
 visitdate: 2022-04-01
 reviewer: 고컴19
 storeaddr: "서울 성북구 고려대로24길 51 1층 & 2층"
-star: 3 # 0, 1, 2, 3, HELL
+star: "3" # 0, 1, 2, 3, HELL
 ---
 
 ## 식사 메뉴
