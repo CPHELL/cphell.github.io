@@ -6,6 +6,11 @@ visitdate: 2022-04-01
 reviewer: 고컴19
 storeaddr: "서울 성북구 고려대로24길 51 1층 & 2층"
 star: "3" # 0, 1, 2, 3, HELL
+eval1: 4
+eval2: 5
+eval3: 2
+eval4: 3
+eval5: 3
 ---
 
 ## 식사 메뉴
