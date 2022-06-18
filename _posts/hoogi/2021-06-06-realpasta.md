@@ -26,4 +26,4 @@ tags: [레스토랑, 체인점, 리얼파스타]
 
 ## 사진
 
-![]('/img/20210606realpasta.jpeg')
+![](/img/20210606realpasta.jpeg)
