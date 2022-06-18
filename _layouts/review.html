@@ -68,7 +68,11 @@ layout: compress
                 <tr>
                     <th>가성비</th>
                     <td>
-                        {% include staring.md id='{{ page.eval1 }}' %}
+                        {% if {{ page.eval1 }}==1 %}⭐{% endif %}
+                        {% if {{ page.eval1 }}==2 %}⭐⭐{% endif %}
+                        {% if {{ page.eval1 }}==3 %}⭐⭐⭐{% endif %}
+                        {% if {{ page.eval1 }}==4 %}⭐⭐⭐⭐{% endif %}
+                        {% if {{ page.eval1 }}==5 %}⭐⭐⭐⭐⭐{% endif %}
                     </td>
                 </tr>
                 <tr>
