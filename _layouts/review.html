@@ -84,7 +84,17 @@ layout: compress
                 <tr>
                     <th><abbr title="재료의 신선함, 요리의 맛, 플레이팅 등을 종합적으로 평가하는 지표입니다">음식의 질</abbr></th>
                     <td>
-                        {% include staring.md id='{{ page.eval2 }}' %}
+                        {% if page.eval2 == 1 %}
+                        ⭐
+                        {% elsif page.eval2 == 2 %}
+                        ⭐⭐
+                        {% elsif page.eval2 == 3 %}
+                        ⭐⭐⭐
+                        {% elsif page.eval2 == 4 %}
+                        ⭐⭐⭐⭐
+                        {% elsif page.eval2 == 5 %}
+                        ⭐⭐⭐⭐⭐
+                        {% endif %}
                     </td>
                 </tr>
                 <tr>
@@ -93,13 +103,33 @@ layout: compress
                      4점 = 직원이 모든 것을 서빙해주는 경우.
                      청결함에 따라 가감해주시면 됩니다.">서비스</abbr></th>
                     <td>
-                        {% include staring.md id='{{ page.eval3 }}' %}
+                        {% if page.eval3 == 1 %}
+                        ⭐
+                        {% elsif page.eval3 == 2 %}
+                        ⭐⭐
+                        {% elsif page.eval3 == 3 %}
+                        ⭐⭐⭐
+                        {% elsif page.eval3 == 4 %}
+                        ⭐⭐⭐⭐
+                        {% elsif page.eval3 == 5 %}
+                        ⭐⭐⭐⭐⭐
+                        {% endif %}
                     </td>
                 </tr>
                 <tr>
                     <th><abbr title="요리의 창의성을 평가하는 항목입니다. 일반적인 식당은 3점으로 부여합니다.">창의성</abbr></th>
                     <td>
-                        {% include staring.md id='{{ page.eval4 }}' %}
+                        {% if page.eval4 == 1 %}
+                        ⭐
+                        {% elsif page.eval4 == 2 %}
+                        ⭐⭐
+                        {% elsif page.eval4 == 3 %}
+                        ⭐⭐⭐
+                        {% elsif page.eval4 == 4 %}
+                        ⭐⭐⭐⭐
+                        {% elsif page.eval4 == 5 %}
+                        ⭐⭐⭐⭐⭐
+                        {% endif %}
                     </td>
                 </tr>
                 <tr>
@@ -107,7 +137,17 @@ layout: compress
                     스토리텔링이 있는 식당이나 분위기가 있는 식당에 점수를 부여하며,
                     일반적인 식당은 3점으로 부여합니다.">분위기</abbr></th>
                     <td>
-                        {% include staring.md id='{{ page.eval5 }}' %}
+                        {% if page.eval5 == 1 %}
+                        ⭐
+                        {% elsif page.eval5 == 2 %}
+                        ⭐⭐
+                        {% elsif page.eval5 == 3 %}
+                        ⭐⭐⭐
+                        {% elsif page.eval5 == 4 %}
+                        ⭐⭐⭐⭐
+                        {% elsif page.eval5 == 5 %}
+                        ⭐⭐⭐⭐⭐
+                        {% endif %}
                     </td>
                 </tr>
             </table>
