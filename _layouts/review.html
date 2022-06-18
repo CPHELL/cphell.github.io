@@ -68,11 +68,17 @@ layout: compress
                 <tr>
                     <th>가성비</th>
                     <td>
-                        {% if {{ page.eval1 }}==1 %}⭐{% endif %}
-                        {% if {{ page.eval1 }}==2 %}⭐⭐{% endif %}
-                        {% if {{ page.eval1 }}==3 %}⭐⭐⭐{% endif %}
-                        {% if {{ page.eval1 }}==4 %}⭐⭐⭐⭐{% endif %}
-                        {% if {{ page.eval1 }}==5 %}⭐⭐⭐⭐⭐{% endif %}
+                        {% if {{ page.eval1 }}==1 %}
+                        ⭐
+                        {% elsif {{ page.eval1 }}==2 %}
+                        ⭐⭐
+                        {% elsif {{ page.eval1 }}==3 %}
+                        ⭐⭐⭐
+                        {% elsif {{ page.eval1 }}==4 %}
+                        ⭐⭐⭐⭐
+                        {% elsif {{ page.eval1 }}==5 %}
+                        ⭐⭐⭐⭐⭐
+                        {% endif %}
                     </td>
                 </tr>
                 <tr>
