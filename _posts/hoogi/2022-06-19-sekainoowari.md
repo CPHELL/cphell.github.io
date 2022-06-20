@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "세상의끝라멘 - 2022-06-19"
+title: "[마포] 세상의끝라멘 - 2022-06-19"
 storename: "세상의끝라멘"
 visitdate: 2022-06-19
 reviewer: KRB

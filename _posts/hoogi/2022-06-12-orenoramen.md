@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "오레노라멘 강남점 - 2022-06-12"
+title: "[강남] 오레노라멘 강남점 - 2022-06-12"
 storename: "오레노라멘 강남점"
 visitdate: 2022-06-12
 reviewer: JMY

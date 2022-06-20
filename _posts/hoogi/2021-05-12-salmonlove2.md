@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "연어사랑 - 2021-05-12"
+title: "[동대문] 연어사랑 - 2021-05-12"
 storename: "연어사랑 고대점"
 visitdate: 2021-05-12
 reviewer: KMJ

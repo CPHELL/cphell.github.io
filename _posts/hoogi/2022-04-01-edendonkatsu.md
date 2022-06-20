@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "이든돈카츠 - 2022-04-01"
+title: "[동작] 이든돈카츠 - 2022-04-01"
 storename: "이든돈카츠"
 visitdate: 2022-04-01
 reviewer: KRB

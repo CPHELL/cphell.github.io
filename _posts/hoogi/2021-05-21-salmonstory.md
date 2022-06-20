@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "연어이야기 - 2021-05-21"
+title: "[동대문] 연어이야기 - 2021-05-21"
 storename: "연어이야기"
 visitdate: 2021-05-21
 reviewer: JWS

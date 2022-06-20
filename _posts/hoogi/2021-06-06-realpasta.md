@@ -1,7 +1,7 @@
 ---
 layout: review
-title: "리얼파스타 - 2021-06-06"
-storename: "리얼파스타"
+title: "[성북] 리얼파스타 안암점 - 2021-06-06"
+storename: "리얼파스타 안암점"
 visitdate: 2021-06-06
 reviewer: KRB
 storeaddr: "서울특별시 성북구 안암동5가 86-1 1층"

@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "우육면관 광화문점 - 2022-05-21"
+title: "[종로] 우육면관 광화문점 - 2022-05-21"
 storename: "우육면관 광화문점"
 visitdate: 2022-05-21
 reviewer: HSJ
