@@ -2,7 +2,7 @@
 layout: review
 title: "[강남] 쉐이크쉑 - 2023-03-11"
 storename: "쉐이크쉑"
-visitdate: 2023-02-17
+visitdate: 2023-03-11
 reviewer: LSW
 storeaddr: "서울 강남구 영동대로 513"
 star: "2" # 0, 1, 2, 3, HELL
